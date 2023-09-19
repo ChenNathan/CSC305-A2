@@ -21,8 +21,8 @@
                     "createdAt": "2023-09-09T20:39:28.706Z",
                     "updatedAt": "2023-09-09T20:39:28.706Z",
                     "__v": 0,
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f65f47a1a51539c62cae79/projects/64fcdcbfed82de850ca74070/assets/64fcdcbfed82deb75ba74072?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20230913%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230913T015523Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=3cdb088c334c4fd0f86f6b6c1c518daf8bffa7ef37b5f0223a046a76948ca55e2f70a5ec73cd22f007942d6d89194916b89f0e137a9ccf1f2bcb86ead0aa03f7ffe81fff417bdc6434fec39bdbc92c16e0b7999d3f46cbf449ac7f0e5d0d14f76ce134085470e26bece9db5429c4ca463a8bfc0e961e9bc341e77308c3e90d1813d159907b41e8424bb2a050ae92f469d0fe842654ff8c394497284b9d40d3ef2e672003f6188fa4f3e6ee75eb3013727255eedf69d2621e67013db58d6937918cc6976dbc9d05852b1e01cecec0ad3f70f92d180987d1ee78254cfb9639fa4fee2f990c7bdd0d70d1b75e139b4d29d48f21d851b1f66e03052cb09995f9abef",
-                    "signedUrlExpirationTime": 1694742923544
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f65f47a1a51539c62cae79/projects/64fcdcbfed82de850ca74070/assets/64fcdcbfed82deb75ba74072?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20230919%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230919T030348Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=0ebb08f53eba73ce79be7eb2bfa306788700bc4d82f8bc2a6c8e10d6c74166bfa094d167c956b547cf36221d40089e2de66f964383313a8cbcd4f5dc11a9da2f81886ea28e9884db5255890554c0c82cb8a94514045daf5a2c9043db6d67ed40855f984daf9809d59b5d1da56a2e07ebe8130ce1cd77a48b842e0e12665d9f37a942412660937765bacbd4fec8353b326f67300dffad3aa55685d950cf4dcc541684a76bc1a61e9a2fe3aef818fb12ccc7f72794dcbf535e53fe4c653f572621c422df158f1a1224abbb6d7e63f200391a1e2835442ca6ae8c9717efa64441212b3828011f338f044857d0bc0964293f71bbeabdefd7c58dd20f2279f454ebd8",
+                    "signedUrlExpirationTime": 1695265428811
                 }
             },
             "backendUpgradeVersion": 21,
@@ -115,7 +115,7 @@
                     "ios": {
                         "usageDescriptions": {
                             "NSCameraUsageDescription": "",
-                            "NSMicrophoneUsageDescription": ""
+                            "NSPhotoLibraryUsageDescription": ""
                         }
                     }
                 },
@@ -164,7 +164,7 @@
                     "ios": {
                         "usageDescriptions": {
                             "NSCameraUsageDescription": "",
-                            "NSMicrophoneUsageDescription": ""
+                            "NSPhotoLibraryUsageDescription": ""
                         }
                     }
                 },
@@ -192,7 +192,13 @@
             "totalCopy": "0",
             "totalStar": "0",
             "starAction": "star",
-            "variables": {},
+            "variables": {
+                "affa5771-c2f5-41c8-a16d-2ef44324d67e": {
+                    "scope": "APP",
+                    "name": "voice_bool",
+                    "screenId": "322912e9-63b5-4bd8-bd93-2eb4eb27abe7"
+                }
+            },
             "defaultDesignerDevice": "PHONE",
             "defaultDesignerOrientation": "PORTRAIT",
             "schemaVersion": 2,
